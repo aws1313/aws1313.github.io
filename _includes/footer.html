@@ -1,0 +1,15 @@
+<div style="background-color: rgb(9, 15, 27);" class="">
+    <div class="container">
+        <footer class="pt-3">
+            <div class="d-flex justify-content-between border-top pt-1">
+                <div class="d-flex row row-cols-auto">
+                    {% if page.url != "/impressum.html" %}<div class="col me-3"><a href="/impressum.html" class="text-reset"><p style="font-family: 'Lato', sans-serif;" class="fw-light">IMPRESSUM</p></a></div>{% endif %}
+                    {% if page.url != "/privacy.html" %}<div class="col me-3"><a href="/privacy.html" class="text-reset"><p style="font-family: 'Lato', sans-serif;" class="fw-light">DATENSCHUTZERKLÄRUNG</p></a></div>{% endif %}
+                </div>
+                <div class="d-flex row row-cols-auto">
+                    <div class="col ms-3"><a class="link-body-emphasis" href="https://github.com/aws1313"><i class="bi bi-github" style="font-size: 1.5rem"></i></a></div>
+                </div>
+            </div>
+        </footer>
+    </div> 
+</div>
